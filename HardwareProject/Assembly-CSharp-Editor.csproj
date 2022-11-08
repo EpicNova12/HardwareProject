@@ -56,51 +56,51 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ARDUnity\Scripts\Bridge\Editor\ColorInputEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Reactor\Editor\DialSliderReactorEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Reactor\Editor\TorqueReactorEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Reactor\Editor\TextReactorEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Reactor\Editor\MoveAxisReactorEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Utility\Editor\ListViewEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Reactor\Editor\LightIntensityReactorEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Utility\Editor\DialSliderEditor.cs" />
     <Compile Include="Assets\ARDUnity\Scripts\Bridge\Editor\MappingInputEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Reactor\Editor\SliderReactorEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Reactor\Editor\LightColorReactorEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Bridge\Editor\ColorOutputEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Controller\Editor\AnalogInputEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Controller\Editor\DigitalOutputEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Utility\Editor\ArdunityAppUIEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Controller\Editor\DigitalInputEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Reactor\Editor\ColliderReactorEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Bridge\Editor\ValueOutputEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Reactor\Editor\AudioSourceReactorEditor.cs" />
     <Compile Include="Assets\ARDUnity\Scripts\Reactor\Editor\DropdownReactorEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Utility\Editor\SliderSnapEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\CommSocket\Editor\CommSerialEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Bridge\Editor\ImpulseInputEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Reactor\Editor\ToggleReactorEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Reactor\Editor\ExplosionReactorEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Controller\Editor\GenericToneEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Utility\Editor\ListItemEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Controller\Editor\PulseOutputEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Bridge\Editor\RTTTLSongEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Controller\Editor\GenericServoEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Reactor\Editor\DialSliderReactorEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Reactor\Editor\SliderReactorEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Controller\Editor\AnalogInputEditor.cs" />
     <Compile Include="Assets\ARDUnity\Scripts\Utility\Editor\ToggleEventEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Reactor\Editor\LightIntensityReactorEditor.cs" />
     <Compile Include="Assets\ARDUnity\Scripts\Bridge\Editor\DragInputEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Reactor\Editor\ForceReactorEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Bridge\Editor\InputFilterEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Utility\Editor\CommSerialUIEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\CommSocket\Editor\CommSerialEditor.cs" />
     <Compile Include="Assets\ARDUnity\Scripts\Bridge\Editor\ToggleInputEditor.cs" />
     <Compile Include="Assets\ARDUnity\Scripts\Controller\Editor\AnalogOutputEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Bridge\Editor\ToneOutputEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Reactor\Editor\AudioSourceReactorEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Bridge\Editor\ValueOutputEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Bridge\Editor\TriggerInputEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Bridge\Editor\CurveOutputEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Reactor\Editor\Rotation2DReactorEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Controller\Editor\GenericServoEditor.cs" />
     <Compile Include="Assets\ARDUnity\Scripts\Bridge\Editor\OutputCombineEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Reactor\Editor\ButtonReactorEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Controller\Editor\DigitalInputEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Bridge\Editor\TriggerInputEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Utility\Editor\ArdunityAppUIEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Utility\Editor\ListViewEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Reactor\Editor\TextReactorEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Controller\Editor\DigitalOutputEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Utility\Editor\SliderSnapEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Bridge\Editor\InputFilterEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Reactor\Editor\TorqueReactorEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Reactor\Editor\ToggleReactorEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Utility\Editor\DialSliderEditor.cs" />
     <Compile Include="Assets\ARDUnity\Scripts\Reactor\Editor\RotationAxisReactorEditor.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Utility\Editor\CommSerialUIEditor.cs" />
     <Compile Include="Assets\ARDUnity\Scripts\Internal\Editor\AboutArdunity.cs" />
-    <Compile Include="Assets\ARDUnity\Scripts\Reactor\Editor\ColliderReactorEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Utility\Editor\ListItemEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Bridge\Editor\RTTTLSongEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Controller\Editor\PulseOutputEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Controller\Editor\GenericToneEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Reactor\Editor\Rotation2DReactorEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Reactor\Editor\ButtonReactorEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Bridge\Editor\ImpulseInputEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Reactor\Editor\ExplosionReactorEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Reactor\Editor\ForceReactorEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Bridge\Editor\CurveOutputEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Bridge\Editor\ColorInputEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Reactor\Editor\MoveAxisReactorEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Reactor\Editor\LightColorReactorEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Bridge\Editor\ColorOutputEditor.cs" />
+    <Compile Include="Assets\ARDUnity\Scripts\Bridge\Editor\ToneOutputEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ARDUnity\Scripts\Internal\Editor\ArdunityCoreEditor.dll" />
@@ -358,6 +358,24 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>D:\Software\2021.3.10f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="ArdunityCoreEditor">
+      <HintPath>Assets\ARDUnity\Scripts\Internal\Editor\ArdunityCoreEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+    </Reference>
+    <Reference Include="ArdunityCore">
+      <HintPath>Assets\ARDUnity\Scripts\Internal\ArdunityCore.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="ReportGeneratorMerged">
+      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -370,29 +388,11 @@
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.IonicZip">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="ReportGeneratorMerged">
-      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="ArdunityCoreEditor">
-      <HintPath>Assets\ARDUnity\Scripts\Internal\Editor\ArdunityCoreEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="ArdunityCore">
-      <HintPath>Assets\ARDUnity\Scripts\Internal\ArdunityCore.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
