@@ -83,7 +83,7 @@
     <Compile Include="Assets\ARDUnity\Scripts\Internal\ControllerDataType.cs" />
     <Compile Include="Assets\ARDUnity\Scripts\Reactor\AudioSourceReactor.cs" />
     <Compile Include="Assets\ARDUnity\Examples\Custom Controller\MyController.cs" />
-    <Compile Include="Assets\Scripts\StirAction.cs" />
+    <Compile Include="Assets\Scripts\ArduinoController.cs" />
     <Compile Include="Assets\ARDUnity\Scripts\Utility\ListView.cs" />
     <Compile Include="Assets\ARDUnity\Scripts\Bridge\OutputCombine.cs" />
     <Compile Include="Assets\ARDUnity\Scripts\Bridge\RTTTLSong.cs" />
@@ -116,6 +116,7 @@
     <Compile Include="Assets\ARDUnity\Scripts\Bridge\ValueOutput.cs" />
     <Compile Include="Assets\Ardity\Scripts\SerialControllerCustomDelimiter.cs" />
     <Compile Include="Assets\ARDUnity\Scripts\Utility\SliderSnap.cs" />
+    <Compile Include="Assets\Scripts\AnalogRemap.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ARDUnity\Plugins\Android\AndroidManifest.xml" />

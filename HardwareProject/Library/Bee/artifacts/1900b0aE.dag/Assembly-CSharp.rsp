@@ -411,8 +411,9 @@
 "Assets/ARDUnity/Scripts/Utility/ListView.cs"
 "Assets/ARDUnity/Scripts/Utility/SliderSnap.cs"
 "Assets/ARDUnity/Scripts/Utility/ToggleEvent.cs"
+"Assets/Scripts/AnalogRemap.cs"
+"Assets/Scripts/ArduinoController.cs"
 "Assets/Scripts/PushBlock.cs"
-"Assets/Scripts/StirAction.cs"
 -langversion:9.0
 
 /deterministic

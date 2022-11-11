@@ -8,21 +8,29 @@
 /**
  * Sample for reading using polling by yourself, and writing too.
  */
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StirAction : MonoBehaviour
+public class ArduinoController : MonoBehaviour
 {
     public SerialController serialController;
-   // public GameObject device;
+    int currentMode = 1;
+    AnalogRemap analogRemap = new AnalogRemap();
+    //Camera
+    public GameObject u_camera;
+    //Stir Action
+    public GameObject stirDevice; 
     public float rotationAngle;
     string recieveMessage="Turned";
+    //Push Action
+    public GameObject pushDevice;
+    float blockLoc;
     // Start is called before the first frame update
     void Start()
     {
         serialController = GameObject.Find("SerialController").GetComponent<SerialController>();
-       // device = gameObject.GetComponent<GameObject>();
         Debug.Log(" ");
     }
 
@@ -35,18 +43,20 @@ public class StirAction : MonoBehaviour
 
         // If you press one of these keys send it to the serial device. A
         // sample serial device that accepts this input is given in the README.
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKeyDown(KeyCode.R) && currentMode == 1)
         {
-            Debug.Log("Sending A");
+            Debug.Log("Switching Mode : Grumbo");
+            u_camera.transform.Rotate(0.0f, 180.0f, 0.0f);
+            serialController.SendSerialMessage("B");
+            currentMode = 2;
+        } 
+        else if (Input.GetKeyDown(KeyCode.R) && currentMode == 2)
+        {
+            Debug.Log("Switching Mode : Sumbo");
+            u_camera.transform.Rotate(0.0f, 180.0f, 0.0f);
             serialController.SendSerialMessage("A");
+            currentMode = 1;
         }
-
-        if (Input.GetKeyDown(KeyCode.Z))
-        {
-            Debug.Log("Sending Z");
-            serialController.SendSerialMessage("Z");
-        }
-
         //---------------------------------------------------------------------
         // Receive data
         //---------------------------------------------------------------------
@@ -65,10 +75,31 @@ public class StirAction : MonoBehaviour
             Debug.Log("Message arrived: " + message);
 
         //-------------
-        if (message == recieveMessage)
+        if (message == recieveMessage && currentMode==1)
         {
-            Debug.Log("Wungus");
-            gameObject.transform.Rotate(0.0f, rotationAngle, 0.0f);
+            stirDevice.transform.Rotate(0.0f, rotationAngle, 0.0f);
         }
+        if(currentMode==2)
+        {
+            blockLoc = ConvertString(message);
+            blockLoc = RemapValues(blockLoc);
+            UpdateBlock(blockLoc);
+            Debug.Log(blockLoc);
+        }
+    }
+
+    float ConvertString(string values)
+    {
+        return float.Parse(values);
+    }
+    float RemapValues(float value)
+    {
+        return analogRemap.Remap(1.0f,1023.0f,-5.8f,0.614f,value);
+    }
+    void UpdateBlock(float location)
+    {
+       // float newLocation;
+       // newLocation = RemapValues(location);
+        pushDevice.transform.position = new Vector3(-18.03f, -5.58f, location);
     }
 }
