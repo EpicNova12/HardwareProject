@@ -6,7 +6,8 @@
 
 Alvin Ng, Genralists, Focus on CAD and 3D Printing
 
-Jeffrey Lund, Genralists, Focus on Electronics and Paper Prototyping/Physical Assembly
+Jeffrey Lundy, Genralists, Focus on Electronics and Paper Prototyping/Physical Assembly
+
 ----------------------------------
 
 ### 3D Printing Simulation Videos
@@ -34,7 +35,7 @@ Fabrication Video: https://drive.google.com/file/d/1n7BUG0STlgJqJyDPL3d4hFNwBTx-
 ### Iteration
 Iteration Video: https://drive.google.com/file/d/1sMDHhay9QcQK0hPFFn_qnxbSgUcUcExL/view?usp=sharing
 
-###Unity and Arduino Demonstration
+### Unity and Arduino Demonstration
 Unity and Arduino Demo Video: https://drive.google.com/file/d/1Y5Q8KlAXPyMFwLke6g8ESaCk0WhbddaQ/view?usp=sharing
 
 
