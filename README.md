@@ -12,14 +12,17 @@ Video link: [Stir Device](https://drive.google.com/file/d/1tF_vp9ALsJ4idD1BSGp1N
 
 Video link: [Push Block](https://drive.google.com/file/d/1JC7s7VEgbHY5Vmnni2e8xUxAYzhHTE7K/view?usp=share_link "Video")
 
+3D Print Anylysis Video: https://drive.google.com/file/d/1gEk8kJPg-X4bn0OQgKLGQFJDnTJlUJOt/view?usp=sharing
 ### 3D Printing Stats (3D Print Time + Material)
 
 Arduino Holder: ![Stats](Images/A3_ArduinoHolder.png)
 
-Slider: ![Stats](Images/A3_Slider.png)
-
 Stir Device: ![Stats](Images/A3_StirDevice.png)
 
 Push Block: ![Stats](Images/PushBlockStats.png)
+
+### Paper Prototype and Fabrication Procses
+Fabrication Video: https://drive.google.com/file/d/1n7BUG0STlgJqJyDPL3d4hFNwBTx-2Ijf/view?usp=sharing
+
 
 
