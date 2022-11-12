@@ -2,6 +2,13 @@
 
 ### Logic Gate: Alvin Ng, Jeff Lundy
 
+--------Team Member Roles--------
+
+Alvin Ng, Genralists, Focus on CAD and 3D Printing
+
+Jeffrey Lund, Genralists, Focus on Electronics and Paper Prototyping/Physical Assembly
+----------------------------------
+
 ### 3D Printing Simulation Videos
 
 Video link: [Arduino Holder](https://drive.google.com/file/d/18fG9CJ-AW-lAVXvCI5jLfbvs-2fUEZ6d/view?usp=share_link "Video")
@@ -23,6 +30,13 @@ Push Block: ![Stats](Images/PushBlockStats.png)
 
 ### Paper Prototype and Fabrication Procses
 Fabrication Video: https://drive.google.com/file/d/1n7BUG0STlgJqJyDPL3d4hFNwBTx-2Ijf/view?usp=sharing
+
+### Iteration
+Iteration Video: https://drive.google.com/file/d/1sMDHhay9QcQK0hPFFn_qnxbSgUcUcExL/view?usp=sharing
+
+###Unity and Arduino Demonstration
+Unity and Arduino Demo Video: https://drive.google.com/file/d/1Y5Q8KlAXPyMFwLke6g8ESaCk0WhbddaQ/view?usp=sharing
+
 
 
 

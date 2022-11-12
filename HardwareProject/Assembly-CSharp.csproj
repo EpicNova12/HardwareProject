@@ -112,11 +112,11 @@
     <Compile Include="Assets\Scripts\PushBlock.cs" />
     <Compile Include="Assets\ARDUnity\Scripts\Reactor\Rotation2DReactor.cs" />
     <Compile Include="Assets\ARDUnity\Scripts\Reactor\ToggleReactor.cs" />
+    <Compile Include="Assets\Scripts\AnalogRemap.cs" />
     <Compile Include="Assets\ARDUnity\Scripts\Utility\CommSerialUI.cs" />
     <Compile Include="Assets\ARDUnity\Scripts\Bridge\ValueOutput.cs" />
     <Compile Include="Assets\Ardity\Scripts\SerialControllerCustomDelimiter.cs" />
     <Compile Include="Assets\ARDUnity\Scripts\Utility\SliderSnap.cs" />
-    <Compile Include="Assets\Scripts\AnalogRemap.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ARDUnity\Plugins\Android\AndroidManifest.xml" />
