@@ -27,6 +27,10 @@ public class ArduinoController : MonoBehaviour
     //Push Action
     public GameObject pushDevice;
     float blockLoc;
+    //Oven Front
+    //Not a feature just a fun enviromental detail
+    public GameObject ovenFront;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -84,7 +88,7 @@ public class ArduinoController : MonoBehaviour
             blockLoc = ConvertString(message);
             blockLoc = RemapValues(blockLoc);
             UpdateBlock(blockLoc);
-            Debug.Log(blockLoc);
+            //Debug.Log(blockLoc);
         }
     }
 
@@ -94,12 +98,17 @@ public class ArduinoController : MonoBehaviour
     }
     float RemapValues(float value)
     {
-        return analogRemap.Remap(1.0f,1023.0f,-5.8f,0.614f,value);
+        return analogRemap.Remap(1.0f,1023.0f,3.77f,8.0f,value);
     }
     void UpdateBlock(float location)
     {
        // float newLocation;
        // newLocation = RemapValues(location);
-        pushDevice.transform.position = new Vector3(-18.03f, -5.58f, location);
+        pushDevice.transform.position = new Vector3(0.0f, -5.58f, location);
+    }
+    void UpdateOven(float location)
+    {
+        float newPos = analogRemap.Remap(1.0f, 1023.0f, 90.0f, 2.50f,blockLoc);
+        ovenFront.transform.rotation = new Quaternion(newPos, 0.0f, 0.0f,1.0f);
     }
 }
