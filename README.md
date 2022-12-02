@@ -1,3 +1,22 @@
+# Course Project Final Submission
+
+### Logic Gate: Alvin Ng, Jeff Lundy
+
+--------Team Member Roles--------
+
+Alvin Ng, Genralists, Focus on CAD and 3D Printing
+
+Jeffrey Lundy, Genralists, Focus on Electronics and Paper Prototyping/Physical Assembly
+
+IEE Report in Repo
+Technical Drawings in Repo
+--------------------------
+Images:
+
+Project Timeline:
+![Stats](Timeline.png)
+
+-------------------------------
 # Game Hardware Assignment 3
 
 ### Logic Gate: Alvin Ng, Jeff Lundy
@@ -8,6 +27,7 @@ Alvin Ng, Genralists, Focus on CAD and 3D Printing
 
 Jeffrey Lundy, Genralists, Focus on Electronics and Paper Prototyping/Physical Assembly
 
+Project Process Flowchart:
 ----------------------------------
 
 ### 3D Printing Simulation Videos
