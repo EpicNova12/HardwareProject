@@ -16,6 +16,11 @@ Images:
 Project Timeline:
 ![Stats](Timeline.png)
 
+SUS Results:
+![Stats](SUS.png)
+
+Project Process Flowchart:
+![Stats](Flowchart.png)
 -------------------------------
 # Game Hardware Assignment 3
 
