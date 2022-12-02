@@ -9,6 +9,7 @@ void setup() {
   pinMode(A0, INPUT);
   pinMode(A1, INPUT);
   Serial.begin(9600);
+  digitalWrite(8,HIGH);
 }
 
 void loop() {
@@ -19,9 +20,13 @@ void loop() {
   {
     case 'A':
       currentInput = 1;
+      digitalWrite(8,HIGH);
+      digitalWrite(10,LOW);    
       break;
     case 'B':
       currentInput = 2;
+      digitalWrite(10,HIGH);
+      digitalWrite(8,LOW);   
       break;
   }
   // Check if potentiometer has changed

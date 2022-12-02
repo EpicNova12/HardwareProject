@@ -31,6 +31,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
@@ -44,6 +46,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4714}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 135
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -628,7 +632,7 @@ ScriptsOnlyBuild:
     className: MyController
   - hash:
       serializedVersion: 2
-      Hash: ae923cd6ffbe178b4805aa53ca2a473f
+      Hash: 4c4e70aa5e1d8303058a0e6f6e4ecba7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ArduinoController
